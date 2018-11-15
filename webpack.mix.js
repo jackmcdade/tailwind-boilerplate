@@ -12,8 +12,8 @@ var tailwindcss = require('tailwindcss');
  |
  */
 
-mix.js('resources/assets/js/app.js', 'public/js')
-   .less('resources/assets/less/app.less', 'public/css')
+mix.js('resources/js/app.js', 'public/js')
+   .less('resources/less/app.less', 'public/css')
    .options({
       postCss: [tailwindcss('tailwind.js')]
    });
