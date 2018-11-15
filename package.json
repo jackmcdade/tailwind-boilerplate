@@ -12,13 +12,13 @@
     "devDependencies": {
         "axios": "^0.17",
         "cross-env": "^5.1",
-        "laravel-mix": "^1.7.2",
+        "laravel-mix": "^2.1",
         "less": "^2.7.3",
         "less-loader": "^4.0.5",
         "lodash": "^4.17.4",
         "vue": "^2.1.10"
     },
     "dependencies": {
-        "tailwindcss": "^0.4.0"
+        "tailwindcss": "^0.7.2"
     }
 }
